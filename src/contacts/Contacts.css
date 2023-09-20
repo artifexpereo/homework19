@@ -1,0 +1,37 @@
+.contacts {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__search {
+    height: 25px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 50px;
+    width: 500px;
+    margin: 30px;
+    padding: 10px;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    box-shadow: 0 0 10px purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.person:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
